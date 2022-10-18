@@ -1,0 +1,8 @@
+# building the image
+docker build .
+
+# same as 
+docker-compose build
+
+# flake8 for linting
+docker-compose run --rm app sh -c "flake8"
